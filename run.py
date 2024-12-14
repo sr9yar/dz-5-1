@@ -18,7 +18,7 @@ formats = {
 
 def main() -> None:
   for newspaper, date in dates.items():
-    print(f"{datetime.strptime(date, formats[newspaper])}")
+    print(datetime.strptime(date, formats[newspaper]))
 
 
 
